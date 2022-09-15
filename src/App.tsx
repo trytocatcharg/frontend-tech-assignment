@@ -1,25 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import family from './family.svg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+     <div 
+        style={{background: "#173F4B", width: "130px", height: "136px", boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.25)"}}>
+          <img src={family} alt="Family" />
+          <p style={{textAlign: "center"}}>Baby's birth</p>
+     </div>
+    </main>
   );
 }
 
