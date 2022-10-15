@@ -1,0 +1,51 @@
+.dashboard-container {
+    height: 200px;
+    width: 834px;
+    text-align: center;
+
+    &__up {
+            display: flex;
+            width: inherit;
+            margin: 30px 0;
+            height: 150px;
+            &--family {
+                position: absolute;
+                left: 96px;
+            }
+            &--holiday {
+                position: absolute;
+                left: 234px;
+            }
+            &--retire {
+                position: absolute;
+                left: 630px;
+            }
+    }
+
+    &__story-line {
+
+    }
+
+    &__down {
+        display: flex;
+        width: inherit;
+        margin: 30px 0;
+        height: 150px;
+        &--new-home {
+            position: absolute;
+            left: 96px
+        }
+        &--emergency {
+            position: absolute;
+            left: 385px;
+        }
+        &--goodbye-banks {
+            position: absolute;
+            left: 553px;
+        }
+        &--philantropy {
+            position: absolute;
+            left: 693px;
+        }
+    }
+}

@@ -1,0 +1,122 @@
+.event-container {
+    display: inline-flex;
+    width: 100px;
+    position: relative;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    &--size-s {
+        
+    }
+    &--size-m {
+        margin-right: 42px;
+    }
+    &--size-m2 {
+        margin-right: 53px;
+    }
+    &--size-l {
+        margin-right: 70px;
+    }
+    &--size-xl {
+        margin-right: 69px;
+    }
+    &__dot {
+        width: 8px;
+        height: 8px;
+        left: calc(50% - 4px);
+        top: -20px;
+        background: #00B897;
+        position: absolute;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        &__line {
+            position: absolute;
+            width: 88px;
+            height: 1px;
+            left: 10px;
+            border: none;
+            border-radius: 2px;
+        }
+        &__line--solid {
+            border-top: 2px solid white;
+        }
+        &__line--dotted {
+            border-top: 2px dotted white;
+        }
+        &__line--size-s {
+            width: 75px;
+        }
+        &__line--size-m {
+            width: 129px;
+        }
+        &__line--size-m2 {
+            width: 139px;
+        }
+        &__line--size-l {
+            width: 165px;
+        }
+        &__line--size-xl {
+            width: 157px;
+        }
+    }
+
+
+    &__main-circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__outer {
+            width: 18px;
+            height: 18px;
+            left: calc(50% - 4px);
+            top: -21px;
+            background: #00B897;
+            position: absolute;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__inner {
+            width: 8px;
+            height: 8px;
+            left: calc(50% - 4px);
+            background: #215A6B;
+            border-radius: 4px;
+        }
+        &__inner--line {
+            border-top: 2px solid white;
+            position: absolute;
+            width: 76px;
+            height: 1px;
+            left: 21px;
+            border-radius: 2px;
+        }
+    }
+    &__end-line {
+        background-image: url('../images/end-line.svg');
+        width: 12px;
+        height: 20px;
+        left: calc(50% - 4px);
+        top: -26px;
+        position: absolute;
+        border-radius: 4px;
+        }
+
+    &__message {
+        width: 100px;
+        text-align: center;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+    }
+    &__message--fix-padding {
+        margin: 0 12px;
+    }
+}
+
