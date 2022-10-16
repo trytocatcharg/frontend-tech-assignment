@@ -30,34 +30,35 @@
         border-radius: 4px;
         display: flex;
         align-items: center;
+        background-color: #fff;
         &__line {
             position: absolute;
             width: 88px;
-            height: 1px;
             left: 10px;
-            border: none;
             border-radius: 2px;
+            background-color: #fff;
         }
         &__line--solid {
-            border-top: 2px solid white;
+            border: 1px solid white;
         }
         &__line--dotted {
-            border-top: 2px dotted white;
+            border: 1px dotted white;
+            background-color: transparent;
         }
         &__line--size-s {
             width: 75px;
         }
         &__line--size-m {
-            width: 129px;
+            width: 124px;
         }
         &__line--size-m2 {
-            width: 139px;
+            width: 135px;
         }
         &__line--size-l {
-            width: 165px;
+            width: 162px;
         }
         &__line--size-xl {
-            width: 157px;
+            width: 151px;
         }
     }
 
@@ -88,12 +89,12 @@
             border-radius: 4px;
         }
         &__inner--line {
-            border-top: 2px solid white;
+            border: 1px solid white;
             position: absolute;
-            width: 76px;
-            height: 1px;
-            left: 21px;
+            width: 72px;
+            left: 22px;
             border-radius: 2px;
+            background-color: white;
         }
     }
     &__end-line {

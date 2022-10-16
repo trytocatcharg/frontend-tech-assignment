@@ -6,14 +6,12 @@ interface CardProps {
     alt: string;
     imageSrc: string;
     orientation?:  "top" | "bottom";
-    align?: "left" | "center" | "right";
     background?: "default" | "selected";
 }
 
 
 export function Card(props: CardProps) {
 const orientation = props.orientation || 'bottom';
-const align = props.orientation || 'center';
 const background = props.background || 'default';
 
     return (
