@@ -55,13 +55,13 @@ export function Dashboard() {
 
               <Event
                 message='In 4 years and 9 months'
-                size='xl'
+                size='l'
               ></Event>
 
               <Event
                 message='In 8 years and 11 months'
                 line='dotted'
-                size='l'
+                size='xl'
               ></Event>
 
                 <Event
