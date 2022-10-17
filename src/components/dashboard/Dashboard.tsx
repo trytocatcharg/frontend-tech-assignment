@@ -69,20 +69,6 @@ export function Dashboard() {
                 icon='end-line'
                 
               ></Event>
-              {/* 
-
-              <Event
-                message='In 4 years and 9 months'
-              ></Event>
-              <Event
-                line='dotted'
-                message='In 8 years and 11 months'
-              ></Event>
-
-              <Event
-                icon='end-line'
-                message='Ultimately'
-              ></Event> */}
               </div>
             </div>
             <div className='dashboard-container__down'>

@@ -30,7 +30,7 @@
         border-radius: 4px;
         display: flex;
         align-items: center;
-        background-color: #fff;
+
         &__line {
             position: absolute;
             width: 88px;
@@ -42,8 +42,9 @@
             border: 1px solid white;
         }
         &__line--dotted {
-            border: 1px dotted white;
-            background-color: transparent;
+            background: radial-gradient(ellipse at center, #fff 0%, #fff 25%, transparent 30%, transparent 100%) 1rem center repeat-x;
+            background-size: 1rem 1rem;
+            padding: 2rem 0;
         }
         &__line--size-s {
             width: 75px;
