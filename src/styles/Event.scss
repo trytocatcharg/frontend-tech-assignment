@@ -43,8 +43,8 @@
         }
         &__line--dotted {
             background: radial-gradient(ellipse at center, #fff 0%, #fff 25%, transparent 30%, transparent 100%) 1rem center repeat-x;
-            background-size: 1rem 1rem;
-            padding: 2rem 0;
+            background-size: 10px 7px;
+            padding: 1rem 0;
         }
         &__line--size-s {
             width: 75px;
