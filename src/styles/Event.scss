@@ -1,3 +1,5 @@
+@import "./scss/index.scss";
+
 .event-container {
     display: inline-flex;
     width: 100px;
@@ -5,9 +7,6 @@
     margin-top: 20px;
     align-items: center;
     justify-content: center;
-    &--size-s {
-        
-    }
     &--size-m {
         margin-right: 42px;
     }
@@ -25,7 +24,7 @@
         height: 8px;
         left: calc(50% - 4px);
         top: -20px;
-        background: #00B897;
+        background: $--color-secondary-light;
         position: absolute;
         border-radius: 4px;
         display: flex;
@@ -36,13 +35,13 @@
             width: 88px;
             left: 12px;
             border-radius: 2px;
-            background-color: #fff;
+            background-color: $--color-default;
         }
         &__line--solid {
-            border: 1px solid white;
+            border: 1px solid $--color-default;
         }
         &__line--dotted {
-            background: radial-gradient(ellipse at center, #fff 0%, #fff 25%, transparent 30%, transparent 100%) 1rem center repeat-x;
+            background: radial-gradient(ellipse at center, $--color-default 0%, $--color-default 25%, transparent 30%, transparent 100%) 1rem center repeat-x;
             background-size: 10px 7px;
             padding: 1rem 0;
         }
@@ -74,7 +73,7 @@
             height: 18px;
             left: calc(50% - 4px);
             top: -21px;
-            background: #00B897;
+            background: $--color-secondary-light;
             position: absolute;
             border-radius: 8px;
             display: flex;
@@ -86,11 +85,11 @@
             width: 8px;
             height: 8px;
             left: calc(50% - 4px);
-            background: #215A6B;
+            background: $--color-primary-light;
             border-radius: 4px;
         }
         &__inner--line {
-            border: 1px solid white;
+            border: 1px solid $--color-default;
             position: absolute;
             width: 72px;
             left: 22px;

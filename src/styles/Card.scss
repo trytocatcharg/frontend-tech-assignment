@@ -1,5 +1,7 @@
+@import "./scss/index.scss";
+
 .card-container {
-    background: #173F4B;
+    background: $--color-primary;
     width: 130px;
     display: flex;
     flex-direction: column;
@@ -17,7 +19,7 @@
     }
 
     &--selected {
-        background: #3C7F90;
+        background: $--color-secondary;
     }
     &--top {
         margin-top: 10px;
@@ -34,7 +36,7 @@
     .card-triangle {
         width: 12.79px;
         height: 12.48px;
-        background: #173F4B;
+        background: $--color-primary;
         box-shadow: 0px 1px 20px rgb(0 0 0 / 40%);
         transform: rotate(134deg);
         flex: none;
@@ -44,14 +46,14 @@
         left: 58px;
         z-index: -1;
         &--selected {
-            background: #3C7F90;
+            background: $--color-secondary;
             left: calc(80% - 4px);
         }
         &-line {
             height: 16px;
             width: 0px;
-            color: #3C7F90;
-            border: 1px solid #3C7F90;
+            color: $--color-secondary;
+            border: 1px solid $--color-secondary;
             border-radius: 2px;
             margin-bottom: 19px;
             position: absolute;
@@ -67,7 +69,7 @@
     .card-triangle {
         width: 12.79px;
         height: 12.48px;
-        background: #173F4B;
+        background: $--color-primary;
         box-shadow: 0px 1px 20px rgb(0 0 0 / 40%);
         transform: rotate(134deg);
         flex: none;
@@ -81,8 +83,8 @@
             position: absolute;
             height: 16px;
             width: 0px;
-            color: #3C7F90;
-            border: 1px solid #3C7F90;
+            color: $--color-secondary;
+            border: 1px solid $--color-secondary;
             top: 152px;
             left: 63px;
             border-radius: 2px;
