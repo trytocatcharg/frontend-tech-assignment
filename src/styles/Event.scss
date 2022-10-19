@@ -29,37 +29,37 @@
         border-radius: 4px;
         display: flex;
         align-items: center;
+    }
 
-        &__line {
-            position: absolute;
-            width: 88px;
-            left: 12px;
-            border-radius: 2px;
-            background-color: $--color-default;
-        }
-        &__line--solid {
-            border: 1px solid $--color-default;
-        }
-        &__line--dotted {
-            background: radial-gradient(ellipse at center, $--color-default 0%, $--color-default 25%, transparent 30%, transparent 100%) 1rem center repeat-x;
-            background-size: 10px 7px;
-            padding: 1rem 0;
-        }
-        &__line--size-s {
-            width: 75px;
-        }
-        &__line--size-m {
-            width: 124px;
-        }
-        &__line--size-m2 {
-            width: 135px;
-        }
-        &__line--size-l {
-            width: 151px;
-        }
-        &__line--size-xl {
-            width: 162px;
-        }
+    &__line {
+        position: absolute;
+        width: 88px;
+        left: 12px;
+        border-radius: 2px;
+        background-color: $--color-default;
+    }
+    &__line--solid {
+        border: 1px solid $--color-default;
+    }
+    &__line--dotted {
+        background: radial-gradient(ellipse at center, $--color-default 0%, $--color-default 25%, transparent 30%, transparent 100%) 1rem center repeat-x;
+        background-size: 10px 7px;
+        padding: 1rem 0;
+    }
+    &__line--size-s {
+        width: 75px;
+    }
+    &__line--size-m {
+        width: 124px;
+    }
+    &__line--size-m2 {
+        width: 135px;
+    }
+    &__line--size-l {
+        width: 151px;
+    }
+    &__line--size-xl {
+        width: 162px;
     }
 
 
@@ -67,36 +67,37 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
-        &__outer {
-            width: 18px;
-            height: 18px;
-            left: calc(50% - 4px);
-            top: -21px;
-            background: $--color-secondary-light;
-            position: absolute;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        &__inner {
-            width: 8px;
-            height: 8px;
-            left: calc(50% - 4px);
-            background: $--color-primary-light;
-            border-radius: 4px;
-        }
-        &__inner--line {
-            border: 1px solid $--color-default;
-            position: absolute;
-            width: 72px;
-            left: 22px;
-            border-radius: 2px;
-            background-color: white;
-        }
     }
+
+    &__main-circle-outer {
+        width: 18px;
+        height: 18px;
+        left: calc(50% - 4px);
+        top: -21px;
+        background: $--color-secondary-light;
+        position: absolute;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__main-circle-inner {
+        width: 8px;
+        height: 8px;
+        left: calc(50% - 4px);
+        background: $--color-primary-light;
+        border-radius: 4px;
+    }
+    &__main-circle-inner--line {
+        border: 1px solid $--color-default;
+        position: absolute;
+        width: 72px;
+        left: 22px;
+        border-radius: 2px;
+        background-color: white;
+    }
+
     &__end-line {
         background-image: url('../images/end-line.svg');
         width: 12px;

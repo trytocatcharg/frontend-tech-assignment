@@ -34,7 +34,7 @@ export function Dashboard() {
             </div>
             </div>
             <div className='dashboard-container__story-line'>
-              <div className='dashboard-container__story-line__event'>
+              <div className='dashboard-container__story-line-event'>
               <Event
                 icon='main-circle'
                 line='solid'

@@ -23,21 +23,21 @@ const isInitEvent = props.isInitEvent || false;
              { icon === "circle" &&
                     <div className='event-container__dot'>
                         <div 
-                            className={`event-container__dot__line 
+                            className={`event-container__line 
                                 ${line === 'solid'
-                                    ? 'event-container__dot__line--solid'
-                                    : 'event-container__dot__line--dotted'}
-                                    event-container__dot__line--size-${props.size}`}
+                                    ? 'event-container__line--solid'
+                                    : 'event-container__line--dotted'}
+                                    event-container__line--size-${props.size}`}
                                     ></div>
                     </div>
                 }
             {   icon === "main-circle" &&
                 <div className='event-container__main-circle'>
-                    <div className='event-container__main-circle__outer'>
-                        <div className='event-container__main-circle__inner'> </div>
+                    <div className='event-container__main-circle-outer'>
+                        <div className='event-container__main-circle-inner'> </div>
 
                         { line === 'solid' &&
-                        <div className='event-container__main-circle__inner--line'>
+                        <div className='event-container__main-circle-inner--line'>
 
                         </div>
                         }
@@ -49,7 +49,7 @@ const isInitEvent = props.isInitEvent || false;
                 <div className='event-container__end-line'></div>
             }
             <div className={`event-container__message`}>
-                <div className={`event-container__message__inner ${isInitEvent ? 'event-container__message--fix-padding' : '' }`} >{props.message }</div>
+                <div className={`event-container__message-inner ${isInitEvent ? 'event-container__message--fix-padding' : '' }`} >{props.message }</div>
             </div>
             
         </div>
